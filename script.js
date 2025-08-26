@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const songs = [
         { name: 'Get Over If You Can', path: 'audio_mp3/Get Over If You Can.mp3', bpm: 102, beatmap: [], description: '노래라는 산을 올라보세요! 물론, 가능하다면요.', svgLogo: '<svg viewBox="0 0 100 100"><polygon points="0,100 30,50 55,75 75,35 100,100" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.5)" stroke-width="2"/></svg>' },
         { name: 'Overtake', path: 'audio_mp3/overtake.mp3', bpm: 110, beatmap: [], description: '우리 게임 중 단언컨대 가장 강렬한 음악입니다.. 아마도요.', svgLogo: '<svg viewBox="0 0 100 100"><polygon points="20,20 50,50 20,80" fill="none" stroke="rgba(255,255,255,0.8)" stroke-width="8" /><polygon points="50,20 80,50 50,80" fill="none" stroke="rgba(255,255,255,0.8)" stroke-width="8" /></svg>' },
-        { name: 'Starlight Fever', path: 'audio_mp3/Starlight Fever 복사본.mp3', bpm: 120, beatmap: [], description: '말할 필요 있나요? 전설의 시작입니다.', svgLogo: '<svg viewBox="0 0 100 100"><polygon points="50,5 61,39 98,39 68,61 79,95 50,75 21,95 32,61 2,39 39,39" fill="rgba(255,255,255,0.8)" /></svg>' },
+        { name: 'Starlight Fever', path: 'audio_mp3/StarlightFever.mp3', bpm: 120, beatmap: [], description: '말할 필요 있나요? 전설의 시작입니다.', svgLogo: '<svg viewBox="0 0 100 100"><polygon points="50,5 61,39 98,39 68,61 79,95 50,75 21,95 32,61 2,39 39,39" fill="rgba(255,255,255,0.8)" /></svg>' },
     ];
 
     let selectedSong, score = 0, combo = 0, noteSpeed = 7, noteIndex = 0, activeNotes = [], animationFrameId;
