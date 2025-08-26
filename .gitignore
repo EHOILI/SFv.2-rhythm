@@ -1,0 +1,12 @@
+
+# macOS
+.DS_Store
+
+# Cache
+.npm-cache/
+
+# Logs
+_logs/
+
+# Media
+audio_mp3/
